@@ -5,12 +5,12 @@
     font-weight: $weight;
     font-style: $style;
 
-    src: url('font{$file-path}.eot');
-    src: local('font{$font-family}'),   
-         url('font{$file-path}.eot?#iefix') format('embedded-opentype'), 
-         url('font{$file-path}.woff2') format("woff2"),
-         url('font{$file-path}.woff') format('woff'), 
-         url('font{$file-path}.ttf') format('truetype');
+    src: url('../font{$file-path}.eot');
+    src: local('../font{$font-family}'),   
+         url('../font{$file-path}.eot?#iefix') format('embedded-opentype'), 
+         url('../font{$file-path}.woff2') format("woff2"),
+         url('../font{$file-path}.woff') format('woff'), 
+         url('../font{$file-path}.ttf') format('truetype');
   }
 }
 
