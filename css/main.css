@@ -2,40 +2,40 @@
   font-family: "Cabinet Grotesk";
   font-weight: 700;
   font-style: normal;
-  src: url("../font{$file-path}.eot");
-  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+  src: url("font{$file-path}.eot");
+  src: local("font{$font-family}"), url("font{$file-path}.eot?#iefix") format("embedded-opentype"), url("font{$file-path}.woff2") format("woff2"), url("font{$file-path}.woff") format("woff"), url("font{$file-path}.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Cabinet Grotesk";
   font-weight: 900;
   font-style: normal;
-  src: url("../font{$file-path}.eot");
-  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+  src: url("font{$file-path}.eot");
+  src: local("font{$font-family}"), url("font{$file-path}.eot?#iefix") format("embedded-opentype"), url("font{$file-path}.woff2") format("woff2"), url("font{$file-path}.woff") format("woff"), url("font{$file-path}.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Helvetica Now Display";
   font-weight: 400;
   font-style: normal;
-  src: url("../font{$file-path}.eot");
-  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+  src: url("font{$file-path}.eot");
+  src: local("font{$font-family}"), url("font{$file-path}.eot?#iefix") format("embedded-opentype"), url("font{$file-path}.woff2") format("woff2"), url("font{$file-path}.woff") format("woff"), url("font{$file-path}.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Helvetica Now Display";
   font-weight: 500;
   font-style: normal;
-  src: url("../font{$file-path}.eot");
-  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+  src: url("font{$file-path}.eot");
+  src: local("font{$font-family}"), url("font{$file-path}.eot?#iefix") format("embedded-opentype"), url("font{$file-path}.woff2") format("woff2"), url("font{$file-path}.woff") format("woff"), url("font{$file-path}.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Helvetica Now Display";
   font-weight: 700;
   font-style: normal;
-  src: url("../font{$file-path}.eot");
-  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+  src: url("font{$file-path}.eot");
+  src: local("font{$font-family}"), url("font{$file-path}.eot?#iefix") format("embedded-opentype"), url("font{$file-path}.woff2") format("woff2"), url("font{$file-path}.woff") format("woff"), url("font{$file-path}.ttf") format("truetype");
 }
 
 *,
