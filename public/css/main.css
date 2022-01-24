@@ -1,0 +1,641 @@
+@font-face {
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../font{$file-path}.eot");
+  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cabinet Grotesk";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../font{$file-path}.eot");
+  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font{$file-path}.eot");
+  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../font{$file-path}.eot");
+  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../font{$file-path}.eot");
+  src: local("../font{$font-family}"), url("../font{$file-path}.eot?#iefix") format("embedded-opentype"), url("../font{$file-path}.woff2") format("woff2"), url("../font{$file-path}.woff") format("woff"), url("../font{$file-path}.ttf") format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #e5e5e5;
+  font-family: "Helvetica Now Display";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.vhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 1440px;
+  min-width: 280px;
+  min-height: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: #FFF;
+  color: #61594D;
+}
+
+.container {
+  max-width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.benefits__item {
+  max-width: 290px;
+  margin-bottom: 120px;
+}
+
+.benefits__item h2 {
+  font-family: "Cabinet Grotesk";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 1.25;
+  color: #2C2321;
+  margin-top: 23px;
+  margin-bottom: 8px;
+}
+
+.benefits__item p {
+  padding: 0;
+  margin: 0;
+  color: #61594D;
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 25px;
+}
+
+.benefits__item a {
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #61594D;
+}
+
+.benefits__item a:hover {
+  color: #D6680F;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  background-color: #D6680F;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 6px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background-color: #be5c0d;
+}
+
+.btn_promo {
+  padding: 20px 40px;
+}
+
+.contact {
+  max-width: 250px;
+}
+
+.contact__phone {
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #D6680F;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact__description {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Now Display";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.form {
+  border-radius: 10px;
+  -webkit-box-shadow: 30px 50px 150px rgba(39, 31, 26, 0.2);
+  box-shadow: 30px 50px 150px rgba(39, 31, 26, 0.2);
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-top: -105px;
+  background-color: #fff;
+  margin-bottom: 120px;
+}
+
+.form h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #2C2321;
+  margin-bottom: 20px;
+}
+
+.form__item input {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 271px;
+  background-color: #F5F5F5;
+  background-repeat: no-repeat;
+  background-position: center right 22px;
+  border-radius: 6px;
+  margin-right: 18px;
+  margin-bottom: 50px;
+  padding: 18px 62px 18px 20px;
+}
+
+.form__item input::-webkit-input-placeholder {
+  color: rgba(97, 89, 77, 0.6);
+}
+
+.form__item input::-moz-placeholder {
+  color: rgba(97, 89, 77, 0.6);
+}
+
+.form__item input:-ms-input-placeholder {
+  color: rgba(97, 89, 77, 0.6);
+}
+
+.form__item input::-ms-input-placeholder {
+  color: rgba(97, 89, 77, 0.6);
+}
+
+.form__item input::placeholder {
+  color: rgba(97, 89, 77, 0.6);
+}
+
+.form__item-1 {
+  background-image: url(../../img/form-map.svg);
+}
+
+.form__item-2 {
+  background-image: url(../../img/form-home.svg);
+}
+
+.form__item-3 {
+  background-image: url(../../img/form-dollar.svg);
+}
+
+.form__item .form__btn {
+  background: #D6680F;
+  width: 166px;
+}
+
+.form__item .form__btn:hover {
+  background-color: #be5c0d;
+}
+
+.header {
+  background-color: #F7F7F7;
+  padding-top: 30px;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header__nav {
+  margin-left: 25px;
+}
+
+.lang {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lang__link {
+  text-decoration: none;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+  font-family: "Helvetica Now Display";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2C2321;
+  text-transform: uppercase;
+}
+
+.lang__item {
+  display: none;
+}
+
+.lang__item:first-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.lang__item:first-child::after {
+  display: table;
+  content: "";
+  width: 12px;
+  height: 7px;
+  background: url("../img/drop.svg") no-repeat;
+  margin-left: 10px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.lang:hover .lang__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.lang:hover .lang__item::after {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-list__item {
+  margin-right: 30px;
+}
+
+.nav-list__link {
+  text-decoration: none;
+  border: 0;
+  color: inherit;
+  font-family: inherit;
+  font-family: "Helvetica Now Display";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2C2321;
+  text-transform: uppercase;
+}
+
+.nav-list__link:hover {
+  text-decoration: underline;
+}
+
+.project {
+  margin-left: 150px;
+  margin-top: 120px;
+}
+
+.project__name {
+  padding: 0;
+  margin: 0;
+  font-family: "Cabinet Grotesk";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1.25;
+  color: #2C2321;
+  margin-bottom: 57px;
+}
+
+.project__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  margin-bottom: 150px;
+  height: 500px;
+}
+
+.project__container:nth-child(odd) {
+  max-width: 1130px;
+}
+
+.project__container:last-child {
+  margin-bottom: 120px;
+}
+
+.project__img {
+  height: 500px;
+}
+
+.project__info {
+  max-width: 330px;
+}
+
+.project__info h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Cabinet Grotesk";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 1.25;
+  color: #2C2321;
+  margin-top: 20px;
+}
+
+.project__info p {
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.project__block {
+  display: block;
+  width: 300px;
+  height: 1px;
+  background-color: #61594D;
+}
+
+.promo {
+  padding-top: 138px;
+  padding-bottom: 167px;
+  background-color: #F7F7F7;
+  background-image: url("../img/promo-img.png"), url("../img/promo-star.svg");
+  background-repeat: no-repeat no-repeat;
+  background-position: top 138px right 0, top 16px left 26px;
+}
+
+.promo__title {
+  padding: 0;
+  margin: 0;
+  font-family: "Cabinet Grotesk";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 62px;
+  line-height: 1.2419354839;
+  color: #2C2321;
+  max-width: 540px;
+  margin-bottom: 20px;
+}
+
+.promo__description {
+  font-size: 18px;
+  line-height: 1.6666666667;
+  max-width: 455px;
+  margin-bottom: 34px;
+}
+
+.promo__btn {
+  margin-bottom: 100px;
+}
+
+.promo__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.promo__contact {
+  margin-top: 55px;
+}
+
+.rating-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rating-list__item ~ .rating-list__item {
+  margin-left: -10px;
+}
+
+.rating-list__object {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.rating-list__object_more {
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #D6680F;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.rating__title {
+  padding: 0;
+  margin: 0;
+  font-family: "Cabinet Grotesk";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #2C2321;
+  letter-spacing: 0.02rem;
+  margin-bottom: 7px;
+}
+
+.rating__grade::before {
+  display: inline-block;
+  content: url("../img/rating-star.svg");
+  width: 16px;
+  height: 16px;
+  margin: 0 5px;
+}
+
+.rating__description {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+  margin-bottom: 20px;
+}
+
+.toolbar {
+  position: relative;
+}
+
+.toolbar__lang {
+  position: absolute;
+  left: -80px;
+  top: 10px;
+}
+
+.trends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FDFBF6;
+}
+
+.trends__img {
+  margin-top: 75px;
+  width: 833px;
+  margin-right: 37px;
+  margin-bottom: 65px;
+  mix-blend-mode: darken;
+}
+
+.trends__right {
+  margin-top: 120px;
+  width: 420px;
+}
+
+.trends__right h2 {
+  padding: 0;
+  margin: 0;
+  font-family: "Cabinet Grotesk";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 1.25;
+  color: #2C2321;
+}
+
+.trends__right p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.75;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+@supports (-webkit-appearance:none) {
+  .form__item-1 {
+    background-image: url(../../img/form-map.svg);
+  }
+
+  .form__item-2 {
+    background-image: url(../../img/form-home.svg);
+  }
+
+  .form__item-3 {
+    background-image: url(../../img/form-dollar.svg);
+  }
+
+  .lang__item:first-child::after {
+    background: url("../img/drop.svg") no-repeat;
+  }
+
+  .promo {
+    background-image: url("../img/promo-img.webp"), url("../img/promo-star.svg");
+  }
+}

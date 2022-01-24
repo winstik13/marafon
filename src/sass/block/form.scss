@@ -1,0 +1,64 @@
+.form {
+    // border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 30px 50px 150px rgba(39, 31, 26, 0.2);
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: -105px;
+    background-color: #fff;
+    margin-bottom: 120px;
+
+    h3 {
+        @include reset-model;
+        @include font-cabinet-bold;
+        @include font(24px, 30px);
+        color: $color-text-dark;
+        margin-bottom: 20px;
+    }
+
+    &__item {
+
+        input {
+            @include reset-input;
+            @include font(16px, 24px);
+            width: 271px;
+            background-color: #F5F5F5;
+            background-repeat: no-repeat;
+            background-position: center right 22px;
+            border-radius: 6px;
+            margin-right: 18px;
+            margin-bottom: 50px;
+            padding: 18px 62px 18px 20px;
+
+            &::placeholder {
+                color: rgba(97, 89, 77, 0.6);
+            }
+
+        }
+
+        &-1 {
+            background-image: url(../../img/form-map.svg);
+        }
+
+        &-2 {
+            background-image: url(../../img/form-home.svg);
+        }
+
+        &-3 {
+            background-image: url(../../img/form-dollar.svg);
+        }
+
+
+        .form__btn {
+            background: $color-orange;
+            width: 166px;
+
+            &:hover {
+                background-color: darken($color-orange, 5%);
+            }
+        }
+    }
+
+
+
+}

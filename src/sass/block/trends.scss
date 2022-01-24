@@ -1,0 +1,32 @@
+.trends {
+    display: flex;
+    background-color: $color-trends;
+
+    &__img {
+        margin-top: 75px;
+        width: 833px;
+        margin-right: 37px;
+        margin-bottom: 65px;
+        mix-blend-mode: darken;
+    }
+
+    &__right {
+        
+        margin-top: 120px;
+        width: 420px;
+    }
+
+    &__right h2 {
+        @include reset-model;
+        @include font-cabinet-black;
+        @include font(48px, 60px);
+        color: $color-text-dark;
+    }
+    &__right p {
+        @include reset-model;
+        @include font(16px, 28px);
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+}
+

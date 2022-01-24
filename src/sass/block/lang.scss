@@ -1,0 +1,39 @@
+.lang {
+    @include reset-list;
+
+
+    &__link {
+        @include reset-link;
+        @include font-helvetica-medium;
+        @include font(14px, 21px);
+        color: $color-text-dark;
+        text-transform: uppercase;
+    }
+
+    &__item {
+        display: none;
+    }
+
+    &__item:first-child {
+        display: flex;
+        align-items: center;
+
+        &::after {
+            display: table;
+            content: "";
+            width: 12px;
+            height: 7px;
+            background: url("../img/drop.svg") no-repeat;
+            margin-left: 10px;
+            transition: all .2s ease;
+        }
+    }
+
+    &:hover &__item {
+        display: flex;
+
+        &::after {
+            transform: rotate(180deg);
+        }
+    }
+}

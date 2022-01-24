@@ -1,0 +1,57 @@
+.project {
+    margin-left: 150px;
+    margin-top: 120px;
+
+    &__name {
+        @include reset-model;
+        @include font-cabinet-black;
+        @include font(48px, 60px);
+        color: $color-text-dark;
+        margin-bottom: 57px;
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-end;
+        margin-bottom: 150px;
+        height: 500px;
+
+        &:nth-child(odd) {
+            max-width: 1130px;
+        }
+
+        &:last-child {
+            margin-bottom: 120px;
+        }
+    }
+
+    &__img {
+        height: 500px;
+    }
+
+    &__info {
+        max-width: 330px;
+
+        & h3 {
+            @include reset-model;
+            @include font-cabinet-black;
+            @include font(32px, 40px);
+            color: $color-text-dark;
+            margin-top: 20px;
+        }
+
+        & p {
+            @include reset-model;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+    }
+
+    &__block {
+        display: block;
+        width: 300px;
+        height: 1px;
+        background-color: $color-text-base;
+    }
+}
