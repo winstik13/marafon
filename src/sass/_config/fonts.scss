@@ -1,12 +1,12 @@
 @import "../_mixins/font-face";
 
 // Подключение шрифтов
-@include font-face("Cabinet Grotesk", "/font/CabinetGrotesk/CabinetGrotesk-Bold", 700);
-@include font-face("Cabinet Grotesk", "/font/CabinetGrotesk/CabinetGrotesk-Black", 900);
+@include font-face("Cabinet Grotesk", "/CabinetGrotesk/CabinetGrotesk-Bold", 700);
+@include font-face("Cabinet Grotesk", "/CabinetGrotesk/CabinetGrotesk-Black", 900);
 
-@include font-face("Helvetica Now Display", "/font/HelveticaNowDisplay/HelveticaNowDisplay-Regular", 400);
-@include font-face("Helvetica Now Display", "/font/HelveticaNowDisplay/HelveticaNowDisplay-Medium", 500);
-@include font-face("Helvetica Now Display", "/font/HelveticaNowDisplay/HelveticaNowDisplay-Bold", 700);
+@include font-face("Helvetica Now Display", "/HelveticaNowDisplay/HelveticaNowDisplay-Regular", 400);
+@include font-face("Helvetica Now Display", "/HelveticaNowDisplay/HelveticaNowDisplay-Medium", 500);
+@include font-face("Helvetica Now Display", "/HelveticaNowDisplay/HelveticaNowDisplay-Bold", 700);
 
 
 // Миксины для шрифтов
